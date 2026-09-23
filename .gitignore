@@ -1,0 +1,48 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset - DO NOT PUSH
+dataset/
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Generated/cache files
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python environment
+.env
+.env.*
